@@ -7,7 +7,7 @@ Khoa Công nghệ thông tin, Trường đại học Nha Trang
 
 ------------------
 
-### [Lab 1: Cài đặt WebServer]()
+### [Lab 1: Cài đặt WebServer](https://github.com/ltbhang/PHP/tree/main/Lab1_WebServerInstallation)
 ### [Lab 2: PHP căn bản]()
 ### [Lab 3: Sử dụng Form]()
 ### [Lab 4: Hàm và lập trình hướng đối tượng]()
