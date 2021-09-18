@@ -4,6 +4,12 @@ a/ Hiển thị các số nguyên tố nhỏ hơn số nguyên được tạo.
 b/ Cho biết số nguyên này có bao nhiêu chữ số.
 c/ Cho biết chữ số lớn nhất trong số nguyên này.
 
+```php
+<?php
+echo "Hello"
+?>
+```
+
 ## Bài 2
 Tạo một số nguyên dương ngẫu nhiên có giá trị trong khoảng [1,10]. In ra bảng cửu chương tương ứng với giá trị đó.
 Ví dụ: Nếu số nguyên được tạo ra là 3, thì xuất ra bảng cửu chương 3.
