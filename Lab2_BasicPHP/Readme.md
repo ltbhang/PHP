@@ -23,18 +23,18 @@ Các bước thực hiện:
 **Lưu ý:** Nếu port mặc định không phải là 80 thì trên thanh địa chỉ bạn gõ vào theo cú pháp sau: `http://localhost:tên-port/Tên-thư-mục`
 - Bước 7: Click chọn file cần thực thi (Ví dụ: `welcome.php`) rồi xem kết quả trên trình duyệt.
 
-### Thực hiện lại các ví dụ minh họa trong Chủ đề 2. PHP cơ bản.
+### Thực hiện lại các ví dụ minh họa trong ***Chủ đề 2. PHP cơ bản***.
 
 
 ## Bài tập nâng cao<a name="bt_nangcao" />
 ### Bài 1
 Tạo ngẫu nhiên 1 số nguyên có giá trị trong khoảng [10,1000]. Sau đó thực hiện các yêu cầu sau:
 
-a/ Hiển thị các số nguyên tố nhỏ hơn số nguyên được tạo.
+a. Hiển thị các số nguyên tố nhỏ hơn số nguyên được tạo.
 
-b/ Cho biết số nguyên này có bao nhiêu chữ số.
+b. Cho biết số nguyên này có bao nhiêu chữ số.
 
-c/ Cho biết chữ số lớn nhất trong số nguyên này.
+c. Cho biết chữ số lớn nhất trong số nguyên này.
 
 ### Bài 2
 Tạo một số nguyên dương ngẫu nhiên có giá trị trong khoảng [1,10]. In ra bảng cửu chương tương ứng với giá trị đó.
@@ -51,12 +51,15 @@ In ra trình duyệt các bảng cửu chương từ 1 đến 10.
 
 ~ Sử dụng hai vòng lặp để hiển thị kết quả.
 
+~ Có thể sử dụng các thẻ của HTML để hiển thị bảng cửu chương.
+
 #### Bài 4
 Hiển thị ma trận có kích thước mxn, với m và n là 2 số nguyên dương được tạo ngẫu nhiên trong khoảng [2,5], và các phần tử trong ma trận có giá trị thuộc [-100, 100].
 
 *Gợi ý:*
 
 ~ Sử dụng hai vòng lặp để tạo ma trận.
+
 ~ Sử dụng các thẻ của HTML để tạo bảng hiển thị ma trận.
 
 ### Bài 5
