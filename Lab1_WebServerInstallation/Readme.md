@@ -116,7 +116,7 @@ Ghi chú: Để biết XAMPP sử dụng port nào cho service tương ứng, t�
 
 <img src="figs/php_install_10.png"/>
 
-	Bước 2: Click nút *Service and Port Settings* như hình dưới đây.
+	Bước 2: Click nút *Service and Port Settings*.
 
 <img src="figs/php_install_11.png"/>
 
@@ -149,7 +149,9 @@ Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi c�
 
 •   Nhấn tổ hợp phím *Ctrl + S* để lưu lại các thay đổi trên file này.
 
-#### Cấu hình cho `httpd-ssl.conf`:  thực hiện tương tự như trên, với giá trị tìm kiếm là 443 và giá trị thay thế là 600 (nếu ở bước đổi port bạn sử dụng giá trị này cho SSL port).
+#### Cấu hình cho `httpd-ssl.conf`:  
+
+•   Thực hiện tương tự như trên, với giá trị tìm kiếm là 443 và giá trị thay thế là 600 (nếu ở bước đổi port bạn sử dụng giá trị này cho SSL port).
 
 
 ## THAY ĐỔI THƯ MỤC WEB ROOT APACHE- HTDOCS WWW <a name="change_root_folder" />
