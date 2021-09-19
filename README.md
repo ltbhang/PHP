@@ -2,7 +2,7 @@
 </h1>
 
 <h4>
-Lê Thị Bích Hằng - hangltb@ntu.edu.vn
+Lê Thị Bích Hằng
 
 Khoa Công nghệ thông tin, Trường đại học Nha Trang
 </h4>
