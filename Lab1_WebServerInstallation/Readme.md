@@ -81,7 +81,7 @@ Theo mặc định XAMPP được cài vào đường dẫn `C:/xampp` tuy nhiê
 + **Help**: cung cấp liên kết đến diễn đàn người dùng.
 + **Quit**: đóng Bảng điều khiển XAMPP.
 
-	Click vào nút *Start* tương ứng với hai dịch vụ Apache và MySQL để khởi động hai dịch vụ này. 
+	Click nút *Start* tương ứng với hai dịch vụ Apache và MySQL để khởi động hai dịch vụ này. 
 Hình dưới đây thể hiện tình trạng của hai dịch vụ Apache và MySQL đều hoạt động tốt.
 
 <img src="figs/php_install_7.png"/>

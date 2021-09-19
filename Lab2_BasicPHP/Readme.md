@@ -18,9 +18,9 @@ Các bước thực hiện:
 ?>
 ```
 - Bước 5: Nhấn *Ctrl + S* lưu lại.
-- Bước 6: Mở trình duyệt web (Ví dụ: Google Chrome), trên thanh địa chỉ gõ vào: `http://localhost`.
+- Bước 6: Mở trình duyệt web (Ví dụ: Google Chrome), trên thanh địa chỉ gõ vào: `http://localhost/BaitapPHP`.
 
-**Lưu ý:** Nếu port mặc định không phải là 80 thì trên thanh địa chỉ bạn gõ vào theo cú pháp sau: `http://localhost:tên-port`
+**Lưu ý:** Nếu port mặc định không phải là 80 thì trên thanh địa chỉ bạn gõ vào theo cú pháp sau: `http://localhost:tên-port/Tên-thư-mục`
 - Bước 7: Click chọn file cần thực thi (Ví dụ: `welcome.php`) rồi xem kết quả trên trình duyệt.
 
 ### Thực hiện lại các ví dụ minh họa trong Chủ đề 2. PHP cơ bản.
