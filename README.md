@@ -1,11 +1,11 @@
 <h1 align="center"> THỰC HÀNH PHÁT TRIỂN PHẦN MỀM MÃ NGUỒN MỞ
 </h1>
 
-<h3>
-Le Thi Bich Hang
+<h4>
+Lê Thị Bích Hằng - hangltb@ntu.edu.vn
 
 Khoa Công nghệ thông tin, Trường đại học Nha Trang
-</h3>
+</h4>
 
 ------------------
 
