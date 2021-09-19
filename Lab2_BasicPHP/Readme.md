@@ -7,7 +7,7 @@
 
 ### Hiển thị trên trình duyệt dòng chữ **Welcome to PHP**. 
 Các bước thực hiện:
-- Bước 1: Tạo thư mục **BaitapPHP** nằm trong thư mục `C:\xampp\htdocs` (Nếu thư mục web_root của XAMPP trên máy bạn mặc định nằm trên ổ đĩa `C:`). **Bạn nên lưu tất cả bài thực hành của mình vào thư mục này.**
+- Bước 1: Tạo thư mục **BaitapPHP** nằm trong thư mục `C:\xampp\htdocs` (Nếu thư mục web_root của XAMPP trên máy bạn mặc định nằm trên ổ đĩa `C:`). **Bạn nên lưu tất cả bài thực hành của mình vào thư mục bài tập này.**
 - Bước 2: Khởi động XAMPP -> Nhấn vào nút 'Start' của Module **Apache**.
 - Bước 3: Mở trình soạn thảo Sublime Text (Nếu bạn sử dụng phần mềm này để soạn thảo PHP).
 - Bước 4: Tạo một file mới, lưu file với tên là `welcome.php` trong thư mục **BaitapPHP**. 
