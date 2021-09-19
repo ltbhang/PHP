@@ -128,13 +128,16 @@ Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi c�
 
 	Bước 4: Đổi port MySQL và các port khác nếu bị lỗi. ***Thông thường nếu mới lập trình, bạn chỉ cần đổi port của Apache là đủ***.
 
-	Bước 5: Các bước trên chỉ mới cấu hình trên giao diện XAMPP. Bạn cần phải cấu hình trong 2 file `httpd.conf` và `httpd-ssl.conf` thì mới hoàn tất như hình sau:
+	Bước 5: Các bước trên chỉ mới cấu hình trên giao diện XAMPP. Bạn cần phải cấu hình trong 2 file `httpd.conf` và `httpd-ssl.conf` thì mới hoàn tất việc đổi port.
 
-<img src="figs/php_install_13.png"/>
 
 
 #### Cấu hình cho `httpd.conf`: 
-•	Click vào nút *Config* của dịch vụ Apache -> Click chọn `httpd.conf`, một cửa sổ Notepad sẽ hiện ra:
+•	Click vào nút *Config* của dịch vụ Apache
+
+<img src="figs/php_install_13.png"/>
+
+•   Click chọn `httpd.conf`, một cửa sổ Notepad sẽ hiện ra:
 
 <img src="figs/php_install_14.png"/>
 
@@ -142,7 +145,7 @@ Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi c�
 
 <img src="figs/php_install_15.png"/>
 
-•	Tại đây, nhập port 80 và click Find Next để tìm và đổi số 80 thành số port (ví dụ 7070) mà bạn cấu hình như ở các bước trên.
+•	Trong hộp thoại tìm kiếm, nhập port 80 và click *Find Next* để tìm và đổi số 80 thành số port (ví dụ 7070) mà bạn cấu hình như ở các bước trên.
 
 •   Nhấn tổ hợp phím *Ctrl + S* để lưu lại các thay đổi trên file này.
 
