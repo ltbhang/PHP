@@ -59,14 +59,17 @@ Theo mặc định XAMPP được cài vào đường dẫn `C:/xampp` tuy nhiê
 <img src="figs/php_install_3.png"/>
 
 	Bước 5. Click nút *Next* và chờ đợi trong khi XAMPP cài đặt.
+
 <img src="figs/php_install_4.png"/>
 
 	Bước 6. Quá trình cài đặt XAMPP hoàn tất, bạn nhấn vào nút *Finish* để kết thúc.
+
 <img src="figs/php_install_5.png"/>
 
 ## SỬ DỤNG  VÀ QUẢN TRỊ XAMPP <a name="using_xampp" />
 
-	Sau khi cài đặt xong, dưới khay hệ thống (Systems tray, góc dưới phía bên phải của Windows) sẽ có biếu tượng của XAMPP, bạn click vào biểu tượng đó thì cửa sổ **XAMPP Control Panel** sẽ được hiển thị. Hoặc có thể khởi động **XAMPP Control Panel** bằng cách chạy file *xampp-control.exe* trong thư mục cài đặt XAMPP. 
+	Sau khi cài đặt xong, dưới khay hệ thống (Systems tray, góc dưới phía bên phải của Windows) sẽ có biếu tượng của XAMPP, bạn click vào biểu tượng đó thì cửa sổ **XAMPP Control Panel** sẽ được hiển thị. Hoặc có thể khởi động **XAMPP Control Panel** bằng cách chạy file *xampp-control.exe* trong thư mục cài đặt XAMPP.
+
 <img src="figs/php_install_6.png"/>
 
 	**XAMPP Control Panel**: cho phép bạn thực hiện nhiều module riêng biệt:
@@ -103,33 +106,40 @@ Việc bị trùng port khi dùng XAMPP cũng là một trong những lỗi ph�
 Một nguyên nhân phổ biến của lỗi kết nối với Apache là các cổng bị chặn. Mặc định, XAMPP sẽ chỉ định máy chủ web cho cổng chính 80 và cổng SSL 443. Tuy nhiên port 80 rất phổ biến, nên nếu máy bạn có cài IIS hoặc web server nào khác thì chắc chắn sẽ bị lỗi, còn cổng SSL thường bị các chương trình khác chặn. Do đó xác suất gặp lỗi port 443 cũng khá cao.
 
 <img src="figs/php_install_9.png"/>
+
 Trong hình ví dụ trên, có thể cổng Tomcat đang bị chặn, nghĩa là không thể khởi động máy chủ web. Do đó, cách giải quyết thường được dùng là ta tiến hành đổi port cho XAMPP.
 
 Ghi chú: Để biết XAMPP sử dụng port nào cho service tương ứng, tại cửa sổ **XAMPP Control Panel** bạn click vào nút *Config* -> *Service and Port settings* để biết chi tiết.
 
 ### CÁCH ĐỔI PORT
 	Bước 1: Tại cửa sổ XAMPP Control Panel, click nút *Config*.
+
 <img src="figs/php_install_10.png"/>
 
-	Bước 2: Click nút *Service and Port Settings* như hình dưới 
+	Bước 2: Click nút *Service and Port Settings* như hình dưới đây.
+
 <img src="figs/php_install_11.png"/>
 
 	Bước 3: Tại đây bạn đổi port mặc định của Apache, ví dụ, Main port 80 thành 7070 và SSL Port 443 thành 600 -> Nhấn nút *Save*.
 
 Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi cần kiểm tra port đó đã bị sử dụng hay chưa bằng cách click vào nút *NetStat* trong **XAMPP Control Panel** để xem.
+
 <img src="figs/php_install_12.png"/>
 
 	Bước 4: Đổi port MySQL và các port khác nếu bị lỗi. ***Thông thường nếu mới lập trình, bạn chỉ cần đổi port của Apache là đủ***.
 
 	Bước 5: Các bước trên chỉ mới cấu hình trên giao diện XAMPP. Bạn cần phải cấu hình trong 2 file `httpd.conf` và `httpd-ssl.conf` thì mới hoàn tất như hình sau:
+
 <img src="figs/php_install_13.png"/>
 
 
 #### Cấu hình cho `httpd.conf`: 
 •	Click vào nút *Config* của dịch vụ Apache -> Click chọn `httpd.conf`, một cửa sổ Notepad sẽ hiện ra:
+
 <img src="figs/php_install_14.png"/>
 
 •	Tại đây, nhấn tổ hợp phím *Ctrl + F* để hiện hộp thoại tìm kiếm:
+
 <img src="figs/php_install_15.png"/>
 
 •	Tại đây, nhập port 80 và click Find Next để tìm và đổi số 80 thành số port (ví dụ 7070) mà bạn cấu hình như ở các bước trên.
@@ -148,6 +158,7 @@ Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi c�
 Ví dụ: web root của XAMPP là `c:/xampp/htdocs`.
 
 	Bước 1. Mở file `C:\xampp\apache\conf\httpd.conf` trong Notepad
+
 <img src="figs/php_install_16.png"/>
 
 	Bước 2. Tìm từ *DocumentRoot* ở dòng 191:
