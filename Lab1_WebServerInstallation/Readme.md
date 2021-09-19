@@ -62,7 +62,7 @@ Theo mặc định XAMPP được cài vào đường dẫn `C:/xampp` tuy nhiê
 
 <img src="figs/php_install_4.png"/>
 
-	Bước 6. Quá trình cài đặt XAMPP hoàn tất, bạn nhấn vào nút *Finish* để kết thúc.
+	Bước 6. Quá trình cài đặt XAMPP hoàn tất, bạn nhấn nút *Finish* để kết thúc.
 
 <img src="figs/php_install_5.png"/>
 
@@ -86,15 +86,20 @@ Hình dưới đây thể hiện tình trạng của hai dịch vụ Apache và 
 
 <img src="figs/php_install_7.png"/>
 
-	Click vào nút *Admin* trong hàng tương ứng với dịch vụ Apache, màn hình quản trị Apache được hiển thị:
+	Click nút *Admin* trong hàng tương ứng với dịch vụ Apache, màn hình quản trị Apache được hiển thị:
 
 <img src="figs/php_install_8.png"/>
 
 	Để chạy các ứng dụng PHP trong XAMPP, bạn hãy copy các dự án vào thư mục `htdocs` trong thư mục cài đặt XAMPP. Từ trình duyệt, bạn truy cập vào ứng dụng theo cấu trúc: `localhost/ten_ung_dung/ten_file`. Ví dụ ứng dụng có tên *QLbanhang* và file php là *welcome.php* thì đường dẫn sẽ là `http://localhost/QLbanhang/welcome.php`.
+
 **Chú ý**:
+
 	Để vào được XAMPP chúng ta có thể gõ lên trình duyệt nội dung là: http://localhost/
+
 	Để đóng bảng điều khiển của XAMPP, bạn click vào nút *Close*. XAMPP sẽ tạm thời ẩn xuống khay hệ thống (System tray) của Windows.
+
 	Khi cần mở bảng điểu khiển chúng ta chỉ cần click vào biểu tượng XAMPP  ở khay hệ thống của Windows.
+
 	Để thoát khỏi XAMPP đầu tiên chúng ta click nút *Stop* ở bên cạnh Apache và MySQL sau đó click nút *Exit*.
 
 
@@ -109,9 +114,10 @@ Một nguyên nhân phổ biến của lỗi kết nối với Apache là các c
 
 Trong hình ví dụ trên, có thể cổng Tomcat đang bị chặn, nghĩa là không thể khởi động máy chủ web. Do đó, cách giải quyết thường được dùng là ta tiến hành đổi port cho XAMPP.
 
-Ghi chú: Để biết XAMPP sử dụng port nào cho service tương ứng, tại cửa sổ **XAMPP Control Panel** bạn click vào nút *Config* -> *Service and Port settings* để biết chi tiết.
+*Ghi chú:* Để biết XAMPP sử dụng port nào cho service tương ứng, tại cửa sổ **XAMPP Control Panel** bạn click vào nút *Config* -> *Service and Port settings* để biết chi tiết.
 
 ### CÁCH ĐỔI PORT
+
 	Bước 1: Tại cửa sổ XAMPP Control Panel, click nút *Config*.
 
 <img src="figs/php_install_10.png"/>
@@ -133,7 +139,7 @@ Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi c�
 
 
 #### Cấu hình cho `httpd.conf`: 
-•	Click vào nút *Config* của dịch vụ Apache
+•	Click nút *Config* của dịch vụ Apache
 
 <img src="figs/php_install_13.png"/>
 
@@ -157,7 +163,9 @@ Bạn có thể đổi port bao nhiêu tùy thích nhưng trước khi đổi c�
 ## THAY ĐỔI THƯ MỤC WEB ROOT APACHE- HTDOCS WWW <a name="change_root_folder" />
 
 •	Thư mục gốc (Web root) dùng để chứa các trang web mặc định của XAMPP là `C:\xampp\htdocs` (nếu XAMPP được cài đặt ở ổ đĩa `C:`). Tất cả các website hoặc thư mục chứa website đều phải được đặt vào thư mục web root (htdocs) thì mới hoạt động được.
+
 •	Nếu muốn bạn có thể thay đổi thư mục Web root, bạn nên tạo một thư mục web root khác nằm ở bên ngoài thư mục XAMPP để dễ sử dụng. 
+
 •	**Các bước thực hiện**:
 
 Ví dụ: web root của XAMPP là `c:/xampp/htdocs`.
