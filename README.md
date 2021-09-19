@@ -1,3 +1,4 @@
+<img style="float: left" src="NTU_logo.png" width="50" height="50"> 
 <h1 align="center"> THỰC HÀNH PHÁT TRIỂN PHẦN MỀM MÃ NGUỒN MỞ
 </h1>
 
