@@ -203,6 +203,7 @@ Selected buns:<br/>
 **Yêu cầu:**
 - Đặt tên cho form
 - Thiết lập phương thức cho form là POST, action của form là tên của trang
+- Sử dụng CSS để thiết kế form
 - Textfield Diện tích không cho phép nhập liệu và chỉnh sửa
 - Khi chọn button Tính, thực hiện tính Diện tích của hình chữ nhật
 
@@ -210,8 +211,8 @@ Selected buns:<br/>
 <img style="float: left" src="figs/thanhtoantiendien.PNG" width="400" height="200"> <br>
 **Yêu cầu:**
 - Đặt tên cho form
-- Thiết lập phương thức cho form là POST, action của form
-là tên của trang
+- Thiết lập phương thức cho form là POST, action của form là tên của trang
+- Sử dụng CSS để thiết kế form
 - Textfield Số tiền thanh toán không cho phép nhập liệu
 và chỉnh sửa
 - Giá trị mặc định của Đơn giá là 20000
@@ -221,6 +222,7 @@ và chỉnh sửa
 
 ### Bài 3: Tạo trang web thực hiện phép tính trên 2 số<a name="btth_3" />
 **Yêu cầu:**
+- Sử dụng CSS để thiết kế form
 - Tạo trang Nhập liệu: Cho người dùng chọn phép tính, nhập giá trị 2 số. 
 
 <img style="float: left" src="figs/trangnhaplieu.PNG" width="400" height="250"> <br>
