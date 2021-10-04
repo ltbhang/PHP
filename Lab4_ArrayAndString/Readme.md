@@ -83,7 +83,7 @@ Kết quả hiển thị:
 ### Bài 2: Sắp xếp danh sách<a name="btkd_2" />
 
 
-	- Cho trước một danh sách bài hát chưa sắp xếp. Yêu cầu sắp xếp lại bài hát theo thứ tự bình bầu.
+- Cho trước một danh sách bài hát chưa sắp xếp. Yêu cầu sắp xếp lại bài hát theo thứ tự bình bầu.
 ```php
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
 <html>
