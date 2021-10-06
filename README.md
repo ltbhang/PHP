@@ -13,6 +13,6 @@ Khoa Công nghệ thông tin, Trường đại học Nha Trang
 ### [Lab 2: PHP căn bản](https://github.com/ltbhang/PHP/tree/main/Lab2_BasicPHP)
 ### [Lab 3: Sử dụng Form](https://github.com/ltbhang/PHP/tree/main/Lab3_UsingForm)
 ### [Lab 4: Mảng và chuỗi](https://github.com/ltbhang/PHP/tree/main/Lab4_ArrayAndString)
-### [Lab 5: Hàm và lập trình hướng đối tượng]()
+### [Lab 5: Hàm và lập trình hướng đối tượng](https://github.com/ltbhang/PHP_Local/tree/main/Lab5_OOP)
 ### [Lab 6: CSDL MySQL]()
 ### [Lab 7: Thiết kế Website]()
